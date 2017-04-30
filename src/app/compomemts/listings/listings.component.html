@@ -1,0 +1,8 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let l of listings">
+    
+    <a [routerLink]="['/listing/'+l.$key]">{{l.title}}key คือ{{l.$key}}</a>
+   
+    </li>
+</ul>
+  
